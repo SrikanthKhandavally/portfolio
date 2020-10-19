@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Ismael Miah</h2>
+            <h2>SRIKANTH KHANDAVALLY</h2>
             <img style={{height: '250px'}} src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
               I have been very passionate about computers and programming since
@@ -23,10 +23,10 @@ class Contact extends Component {
                   
               <List>
                   <ListItem>
-                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-phone-square" aria-hidden='true'></i>+880 1642259188</ListItemContent>
+                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-phone-square" aria-hidden='true'></i>+1(214) 308-8703</ListItemContent>
                   </ListItem>
                   <ListItem>
-                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-envelope" aria-hidden='true'></i>ismail96dream@gmail.com</ListItemContent>
+                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-envelope" aria-hidden='true'></i>srikanthk.khandavally@gmail.com</ListItemContent>
                   </ListItem>
               </List>
               </div>

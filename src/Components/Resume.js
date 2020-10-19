@@ -12,42 +12,43 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="images/ismail.jpg"
+                src="images/Sri-professional.jpeg"
                 alt="avatar"
                 style={{ height: "250px" }}
               />
             </div>
 
-            <h2 style={{ paddingTop: "1em" }}>Ismael Miah</h2>
-            <h4 style={{ color: "grey" }}>Asp .Net Developer</h4>
+            <h2 style={{ paddingTop: "1em" }}>Srikanth Khandavally</h2>
+            <h4 style={{ color: "grey" }}>Full Stack Blockchain Developer</h4>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <p>
-              This is Ismail Hosen. Now i'm a final year student of BSC in
-              Software Engineering Department at Daffodil International
-              University. I liked to solve a new real world problem by coding.
+            Full stack Developer with 3+ years of experience in object-oriented design, implementation, deployment and 
+            maintenance of MERN(Mongo Express React Node) Stack applications using software development life cycle, agile and 
+            scrum methodologies.
             </p>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>Raipura-1630, Narsingdi, Dhaka</p>
+            <p>1100 W Corral Ave APT #168</p>
+            <p>Kingsville TX 78363</p>
             <h5>Phone</h5>
-            <p>+88 01642259188</p>
+            <p>+1(214) 308-8703</p>
             <h5>Email</h5>
-            <p>ismail96dream@gmail.com</p>
-            <h5>Web</h5>
+            <p>srikanthk.khandavally@gmail.com</p>
+            <h5>GitHub</h5>
             <a
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://talent-programmer.blogspot.com"
+              href="https://github.com/SrikanthKhandavally/"
             >
-              My Programming Blog
+              My GitHub Profile
             </a>
             <h5>Download CV</h5>
             <a
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://drive.google.com/file/d/1a8pQ1Fg6Dqxgc9knrPogmM0GFtOicKjK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lv3sZQL0KI2VzApsUw13avOHF-VQ8GER/view?usp=sharing"
             >
               My Update CV
             </a>
@@ -55,39 +56,57 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education
+              startYear={2013}
+              endYear={2017}
+              schoolName={"Jawaharlal Nehru Technological University - Hyderabad"}
+              degreeName={"Bachelor of Technology in Electronics and Instrumentation Engineering"}
+            />
+            <Education
               startYear={2017}
               endYear={2020}
-              schoolName={"Daffodil International University"}
-              degreeName={"Bsc In Software Engineering"}
+              schoolName={"Texas A&M Univeristy - Kingsville"}
+              degreeName={"Master of Science in Computer Science"}
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
-              startYear={"Spring 2019"}
-              endYear={"Fall 2019"}
-              jobName={"Trainer For Junior Solver"}
-              jobDesc={"Teach C Programming Language 1st year students"}
+              startYear={"July 2019"}
+              endYear={"September 2020"}
+              jobName={"Full Stack Blockchain Developer"}
+              jobDesc={"Design, Implement, Test and Deploy Smart Contracts on \
+               Ethereum and Hyperledger Platforms and Develop Backend Rest API's using Node.js and Python Django \
+               and Django Rest Framework "}
             />
             <Experience
-              startYear={"Spring 2020"}
-              endYear={"Summer 2020"}
-              jobName={"ACM Problem Setter"}
+              startYear={"July 2018"}
+              endYear={"July 2019"}
+              jobName={"Software Development Engineer"}
               jobDesc={
-                "Problem setter on DIU Take OFF Programming Contest And Several others contest on Daffodil"
+                "Write React and React Native components accroding to the requirements of Stakeholders and Develop the backend Rest API's\
+                using Node.js and Express.js and Querying the API's using GraphQL."
+              }
+            />
+            <Experience
+              startYear={"December 2016"}
+              endYear={"June 2018"}
+              jobName={"Software Engineer"}
+              jobDesc={
+                "Develop Rest API's and Frontend React Components and creating and deploying the Docker containers to AWS"
               }
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
-            <Skills skill={"C#"} progress={70} />
-            <Skills skill={"HTML/CSS"} progress={80} />
-            <Skills skill={"ReactJS"} progress={50} />
-            <Skills skill={"Asp .Net Core"} progress={70} />
-            <Skills skill={"SQL Server"} progress={70} />
+            <Skills skill={"Node.js"} progress={70} />
+            <Skills skill={"ReactJS & Redux"} progress={80} />
+            <Skills skill={"React Native"} progress={85} />
+            <Skills skill={"Blockchain, Solidity & Hyperledger Fabric"} progress={93} />
+            <Skills skill={"MongoDB, MYSQL"} progress={85} />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Achievments</h2>
-            <h6>6th at SWE Junior Programming Contest (03/2019)</h6>
-            <h6>9th Position at DIU TakeOff Programming Contest (04/2017)</h6>
+            <h2>Achievments & Certifications</h2>
+            <h6>Promoted as president from volunteer in Vignana Vahini foundation where students are taught practical and real world applications
+                of Science & Technology</h6>
+            <h6>Oracle Certified Java Professional</h6>
           </Cell>
         </Grid>
       </div>

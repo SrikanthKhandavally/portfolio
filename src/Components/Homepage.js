@@ -10,33 +10,20 @@ class Homepage extends Component {
             <div className="profile-img-border">
               <img
                 className="profile-img"
-                src="images/DSC_5211-00.jpg"
+                src="images/sri.jpeg"
                 alt="Ismail"
               />
             </div>
             <div className="banner-text">
-              <h1>Asp .Net Full Stack Developer</h1>
+              <h1>Full Stack Blockchain Developer</h1>
               <hr />
               <p>
-                HTML | CSS | BOOTSTRAP | PHP | MYSQL | C# | ASP .NET CORE | SQL
-                SERVER
+                MERN (Mongo, Express, React, Node) Stack, React Native, Python Django, Django Rest Framework, Ethereum, Hyperledger, Smart Contracts, Spring, Spring Boot, Microservices, Chain code, Docker, AWS, Kubernetes
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://facebook.com/ismail5g"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  {" "}
-                  <i
-                    className="fa fa-facebook-official"
-                    aria-hidden="true"
-                  ></i>{" "}
-                </a>
-                {/* LinkedIn */}
-                <a
-                  href="https://twitter.com/ismail_hosen_3g"
+                  href="https://twitter.com/TheBlockDev"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -48,7 +35,8 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://github.com/ismail5g"
+                  href="https://github.com/SrikanthKhandavally/
+                  "
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -60,7 +48,7 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/ismail5g/"
+                  href="https://linkedin.com/in/srikanth-khandavally-0a32811b0"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

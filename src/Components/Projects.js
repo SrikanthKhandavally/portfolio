@@ -20,14 +20,9 @@ class Projects extends Component {
       activeTab: 0,
     };
 
-    this.chatApplication = () => {
+    this.aboutTexas = () => {
       window.location.assign(
-        "https://github.com/ismail5g/Chat-Application-vai-Web-Socket"
-      );
-    };
-    this.calculator = () => {
-      window.location.assign(
-        "https://github.com/ismail5g/Calculator-Using-ReactJS"
+        "https://github.com/SrikanthKhandavally/about-texas"
       );
     };
     this.portfolio = () => {
@@ -37,39 +32,34 @@ class Projects extends Component {
       window.location.assign("https://devismail.netlify.app/");
     };
     this.ecommerce = () => {
-      window.location.assign("https://github.com/ismail5g/EasyBazar");
+      window.location.assign("https://github.com/SrikanthKhandavally/Farm-Front-End/");
     };
-    this.leavemangement = () => {
-      window.location.assign("https://github.com/ismail5g/Leave-Management");
+    this.Cryptocurrency = () => {
+      window.location.assign("https://github.com/SrikanthKhandavally/token_sale");
     };
-    this.crudapplication = () => {
+    this.election = () => {
       window.location.assign(
-        "https://github.com/ismail5g/BookListCrud_MVC-Asp.Net-Core"
+        "https://github.com/SrikanthKhandavally/Election"
       );
     };
-    this.facebook = () => {
-      window.location.assign(
-        "https://github.com/ismail5g/Facebook-Education-Perpose"
-      );
-    };
+
     this.toggleCategories = () => {
-      if (this.state.activeTab === 0) {
+      if (this.state.activeTab === 1) {
         return (
           <div className="projects-grid">
-            {/* Chat-Application */}
+            {/* E - Commerce */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/chat.jpg) center / cover",
+                  background: "url(images/ecommerce.jpeg) center / cover",
                 }}
               >
-                Chat Application
+                E - Commerce
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a chat Application developed on a running course from
-                UDEMY.
+                This is a E-Commerce application where users can buy and sell goods.
               </CardText>
               <CardActions border>
                 <Button
@@ -77,7 +67,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.chatApplication.bind(this)}
+                  onClick={this.ecommerce.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -89,19 +79,24 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Calculator */}
+
+
+
+
+
+            {/* About  - Texas*/}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/calculator.png) center / cover",
+                  background: "url(images/texas.jpg) center / cover",
                 }}
               >
-                Standard Calculator
+                About - Texas
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a first REACT app i developed. The noobie calculator
+                This is a sample application built out of love towards Texas state
               </CardText>
               <CardActions border>
                 <Button
@@ -109,7 +104,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.calculator.bind(this)}
+                  onClick={this.aboutTexas.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -121,20 +116,22 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+
+
+
             {/* Portfolio */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/portfolio.png) center / cover",
+                  background: "url(images/port.jpeg) center / cover",
                 }}
               >
                 Portfolio
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This portfolio designed by REACT JS on 25th August 2020. And it
-                takes 2 days to Complete.
+                This portfolio designed by REACT JS
               </CardText>
               <CardActions border>
                 <Button
@@ -156,23 +153,26 @@ class Projects extends Component {
             </Card>
           </div>
         );
-      } else if (this.state.activeTab === 1) {
+      } 
+      
+      
+      else {
         return (
-          <div className="projects-grid">
-            {/* Ecom-Application */}
+          <div className="projects-grid">            
+            {/* Decentralized Election */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/e-commerce.png) center / cover",
+                  background: "url(images/decentralized.jpeg) center / cover",
                 }}
               >
-                E-Commerce Shop
+                Decentralized Election
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is an Ecommerce Online Shop developed with following MODAZ
-                e-commerce theme.
+                This is a application where user can vote to the contestents in the election 
+                the results will be stored on the blockchain so that there is no tampering.
               </CardText>
               <CardActions border>
                 <Button
@@ -180,40 +180,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.ecommerce.bind(this)}
-                >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-            {/* Leave-management */}
-            <Card shadow={5} className="project-item">
-              <CardTitle
-                style={{
-                  color: "#333",
-                  height: "180px",
-                  background: "url(images/leave-management.png) center / cover",
-                }}
-              >
-                Leave Management
-              </CardTitle>
-              <CardText style={{ textAlign: "justify" }}>
-                This is dynamic Leave management system developed for an
-                corporate organization.
-              </CardText>
-              <CardActions border>
-                <Button
-                  style={{ margin: "0 10px" }}
-                  raised
-                  ripple
-                  primary
-                  onClick={this.leavemangement.bind(this)}
+                  onClick={this.election.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -231,14 +198,13 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/crud-app.png) center / cover",
+                  background: "url(images/ERC-20.png) center / cover",
                 }}
               >
-                CRUD Application
+                Initial Coin Offering
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a CRUD Application developed on a running course from
-                UDEMY.
+                This is an application where a company can initiate their ICO and users can buy the coins built on top of Ethereum ERC-20 Standard
               </CardText>
               <CardActions border>
                 <Button
@@ -246,77 +212,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.crudapplication.bind(this)}
-                >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </div>
-        );
-      }
-      if (this.state.activeTab === 2) {
-        return (
-          <div>
-            {/* Store-Procedure */}
-            <Card shadow={5} className="project-item">
-              <CardTitle
-                style={{
-                  color: "#333",
-                  height: "180px",
-                  background: "url(images/store-procedure.png) center / cover",
-                }}
-              >
-                Store Procedures
-              </CardTitle>
-              <CardText style={{ textAlign: "justify" }}>
-                This is simple Store Procedure among lot's of SQL query.
-              </CardText>
-              <CardActions border>
-                <Button style={{ margin: "0 10px" }} raised ripple primary>
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </div>
-        );
-      } else {
-        return (
-          <div>
-            {/* facebook */}
-            <Card shadow={5} className="project-item">
-              <CardTitle
-                style={{
-                  color: "#333",
-                  height: "180px",
-                  background: "url(images/facebook.jpg) center / cover",
-                }}
-              >
-                Facebook
-              </CardTitle>
-              <CardText style={{ textAlign: "justify" }}>
-                This facebook developed on a semester for educational purpose
-                only.
-              </CardText>
-              <CardActions border>
-                <Button
-                  style={{ margin: "0 10px" }}
-                  raised
-                  ripple
-                  primary
-                  onClick={this.facebook.bind(this)}
+                  onClick={this.Cryptocurrency.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -342,10 +238,8 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
+          <Tab>Blockchain</Tab>
           <Tab>React JS</Tab>
-          <Tab>Asp .Net</Tab>
-          <Tab>SQL SERVER</Tab>
-          <Tab>PHP</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
