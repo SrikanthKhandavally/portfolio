@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-
+import sri from './images/sri.jpeg'
 class Homepage extends Component {
   render() {
     return (
@@ -10,7 +10,7 @@ class Homepage extends Component {
             <div className="profile-img-border">
               <img
                 className="profile-img"
-                src="images/sri.jpeg"
+                src={sri}
                 alt="sriknath"
               />
             </div>
@@ -18,7 +18,7 @@ class Homepage extends Component {
               <h1>Full Stack Blockchain Developer</h1>
               <hr />
               <p>
-                MERN (Mongo, Express, React, Node) Stack, React Native, Python Django, Django Rest Framework, Ethereum, Hyperledger, Smart Contracts, Spring, Spring Boot, Microservices, Chain code, Docker, AWS, Kubernetes
+                MERN (Mongo, Express, React, Node) Stack | React Native | Python Django | Django Rest Framework | Ethereum | Hyperledger | Smart Contracts | Spring | Spring Boot | Microservices | Chain code | Docker | AWS | Kubernetes
               </p>
               <div className="social-links">
                 {/* LinkedIn */}

@@ -13,6 +13,12 @@ import {
   IconButton,
 } from "react-mdl";
 
+import ecommerce from './images/ecommerce.jpeg'
+import texas from './images/texas.jpg'
+import port from './images/port.jpeg'
+import election from './images/decentralized.jpeg'
+import ico from './images/ERC-20.png'
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -53,7 +59,7 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/ecommerce.jpeg) center / cover",
+                  background: `url(${ecommerce}) center / cover`,
                 }}
               >
                 E - Commerce
@@ -90,7 +96,7 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/texas.jpg) center / cover",
+                  background: `url(${texas}) center / cover`,
                 }}
               >
                 About - Texas
@@ -125,7 +131,7 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/port.jpeg) center / cover",
+                  background: `url(${port}) center / cover`,
                 }}
               >
                 Portfolio
@@ -165,7 +171,7 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/decentralized.jpeg) center / cover",
+                  background: `url(${election}) center / cover`,
                 }}
               >
                 Decentralized Election
@@ -198,7 +204,7 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/ERC-20.png) center / cover",
+                  background: `url(${ico}) center / cover`,
                 }}
               >
                 Initial Coin Offering

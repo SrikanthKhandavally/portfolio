@@ -10,7 +10,14 @@ class Contact extends Component {
             <h2>SRIKANTH KHANDAVALLY</h2>
             <img style={{height: '250px'}} src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-              I have been very passionate about computers and programming since
+              An Engineer by profession <br/>
+              A Programmer by passion <br/>
+              Blockchain Dev <br/>
+              AI Enthusiast <br/>
+    
+              I have been very passionate about how technology can connect people,
+              solve problems in an unexpected ways. I am much more interested in building technology that enables trust 
+              among the parties involved that is why computers and programming Blockchain since
               my university life. I dream to be an expert software engineer so
               that I can build professional and useful software that has
               business value.
