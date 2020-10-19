@@ -11,7 +11,7 @@ class Homepage extends Component {
               <img
                 className="profile-img"
                 src="images/sri.jpeg"
-                alt="Ismail"
+                alt="sriknath"
               />
             </div>
             <div className="banner-text">
