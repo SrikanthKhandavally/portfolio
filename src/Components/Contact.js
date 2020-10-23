@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import bitmoji from './images/bitmoji.JPG'
 
 class Contact extends Component {
   render() {
@@ -8,7 +9,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>SRIKANTH KHANDAVALLY</h2>
-            <img style={{height: '250px'}} src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" />
+            <img style={{height: '250px'}} src={bitmoji} alt="avatar" />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
               An Engineer by profession <br/>
               A Programmer by passion <br/>
