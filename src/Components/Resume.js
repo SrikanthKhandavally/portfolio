@@ -57,17 +57,18 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
             <Education
-              startYear={2013}
-              endYear={2017}
-              schoolName={"Jawaharlal Nehru Technological University - Hyderabad"}
-              degreeName={"Bachelor of Technology in Electronics and Instrumentation Engineering"}
-            />
-            <Education
               startYear={2017}
               endYear={2020}
               schoolName={"Texas A&M Univeristy - Kingsville"}
               degreeName={"Master of Science in Computer Science"}
             />
+            <Education
+              startYear={2013}
+              endYear={2017}
+              schoolName={"Jawaharlal Nehru Technological University - Hyderabad"}
+              degreeName={"Bachelor of Technology in Electronics and Instrumentation Engineering"}
+            />
+
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
